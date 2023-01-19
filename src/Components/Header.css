@@ -1,0 +1,27 @@
+.header {
+  height: 70px;
+ 
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.header >div{
+    align-self: center;
+}
+.header >div> img {
+  height: 50px;
+  margin-left: 20px;
+}
+.header > .navbar {
+display: flex;
+align-self: center;
+justify-content: space-around;
+}
+.header>.navbar>div{
+    color: white;
+    text-align: center;
+    margin: 8px;
+    font-weight: 400;
+    font-size: x-small;
+}

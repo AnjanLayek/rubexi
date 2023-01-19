@@ -1,0 +1,85 @@
+.main{
+    background-color: aliceblue;
+}
+.container{
+    margin-left: 13pc;
+    margin-right: 13pc;
+    margin-bottom: 5pc;
+}
+.div-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.card__even{
+    background-image: linear-gradient(white, transparent);
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.card__odd{
+    background-image: linear-gradient( transparent,white)
+}
+.feature__card__header{
+    position: relative;
+}
+.feature__card__no{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+
+.feature__card{
+    text-align: center;
+    border-radius: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feature__card__body{
+    padding: 1rem;
+}
+
+.feature__card__header__even{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.feature__card__header__odd{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.color-div5{
+    height: 20px;
+}
+.color-div5>div{
+   position: relative;
+    bottom: 0;
+    
+    font-weight: bold;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 10px;
+    align-items: center;
+}
+.odd-circle{
+   left: 40%;
+}
+.even-circle{
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

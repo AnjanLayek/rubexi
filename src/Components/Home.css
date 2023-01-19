@@ -1,0 +1,42 @@
+
+.para-1>img{
+    width: 100%;
+    
+}
+.para-2{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.col-1{
+    margin-left: 13pc;
+    margin-right: 13pc;
+}
+.para-2>.col-1{
+    display: flex;
+    justify-content: space-between;
+}
+.para-2>.col-1>img{
+   height: 14pc;
+   
+}
+.col1-row1>div{
+    font-size: small;
+    font-weight: 500;
+    
+}
+.col-2{
+    background-color: mediumvioletred;
+
+}
+.col2-row1{
+    margin-left: 13pc;
+    margin-right: 13pc;
+    color: white;
+}
+.col2-row1>div{
+    font-size: small;
+    font-weight: 500;
+    
+}

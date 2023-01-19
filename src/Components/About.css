@@ -1,0 +1,34 @@
+.about{
+    background-color: aliceblue;
+    margin-top: 6pc;
+}
+.abt-container{
+    margin-left: 13pc;
+    margin-right: 13pc;
+   
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+    height: 250px;
+}
+.abt-container>div{
+    margin-top: 4pc;
+    display: flex;
+    flex-direction: column;
+}
+.row-1{
+    width: 40%;
+}
+.row-2{
+    width: 10%;
+}
+.row-3{
+    width: 10%;
+}
+.row-4{
+    width: 30%;
+}
+.row-4>img{
+    height: 2pc;
+    width: 2pc;
+}
